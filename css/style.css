@@ -1,0 +1,94 @@
+/* CSS Document */
+
+
+main {
+	margin-top:350px;
+	background-color: #1E0303;
+	font-family:'Century Gothic', CenturyGothic, Arial, sans-serif;
+	padding: 30px 30px 30px 0px;
+	margin-left:40px;
+	color: white;
+	border: white;
+	text-decoration: none;
+}
+
+body {
+	background-color: #1E0303;
+	font-family:'Century Gothic', CenturyGothic, Arial, sans-serif;
+}
+
+button {
+	background: #EC2127;
+	font-family:'Century Gothic', CenturyGothic, Arial, sans-serif, bold;
+	text-transform: uppercase;
+	padding: 10px;
+	border-color:black;
+	border-width: 1px;
+	display: inline-block;
+	align-content: center;
+	margin: 20px 20px 20px 0px;
+}
+
+
+.banner {	
+	max-width: 99%;
+}
+
+header img {
+	height: 50px;
+	padding: 20px;
+	margin-left: 40px;
+}
+
+
+/*header code adapted from https://codetheweb.blog/2017/12/12/style-a-navigation-bar-css/*/
+header {
+	background-color: #1E0303;
+	position: fixed;
+	height: 300px;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	box-shadow: 0 0 25px 0 black;
+}
+
+header li {
+	margin: 20px;
+}
+
+a {
+	color: white;
+}
+
+nav * {
+	color: #EC2127;
+	margin-top: 20px;
+	font-family:'Century Gothic', CenturyGothic, Arial, sans-serif, bold;
+	text-decoration: none;
+}
+
+.skip-main {
+	color: #EC2127;
+}
+
+.current {
+	text-transform: uppercase;
+}
+
+footer *{
+	background-color: #1E0303;
+	color:#EC2127;
+	height: 90px;
+	right: 0;
+  	bottom: 0;
+  	left: 0;
+}
+
+footer p {
+	display: flex;
+	align-items: center;
+}
+
+
